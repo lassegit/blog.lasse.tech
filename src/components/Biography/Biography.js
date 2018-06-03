@@ -5,9 +5,9 @@ import 'typeface-montserrat'
 import 'typeface-merriweather'
 
 import profilePic from './profile-pic.jpg'
-import { rhythm } from '../utils/typography'
+import { rhythm } from '../../utils/typography'
 
-class Bio extends React.Component {
+class Biography extends React.Component {
   render() {
     return (
       <div
@@ -38,4 +38,4 @@ class Bio extends React.Component {
   }
 }
 
-export default Bio
+export default Biography
